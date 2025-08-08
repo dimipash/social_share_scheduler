@@ -137,18 +137,18 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',    
 ]
 
-SOCIALACCOUNT_PROVIDERS = {
-    "openid_connect": {
-        "APPS": [
-            {
-                "provider_id": "linkedin",
-                "name": "LinkedIn",
-                "client_id": "<insert-id>",
-                "secret": "<insert-secret>",
-                "settings": {
-                    "server_url": "https://www.linkedin.com/oauth",
-                },
-            }
-        ]
-    }
-}
+# SOCIALACCOUNT_PROVIDERS = {
+#     "openid_connect": {
+#         "APPS": [
+#             {
+#                 "provider_id": "linkedin",
+#                 "name": "LinkedIn",
+#                 "client_id": "<insert-id>",
+#                 "secret": "<insert-secret>",
+#                 "settings": {
+#                     "server_url": "https://www.linkedin.com/oauth",
+#                 },
+#             }
+#         ]
+#     }
+# }
